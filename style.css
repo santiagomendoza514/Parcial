@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .campo {
+    margin-bottom: 10px;
+  }
+  
+  .campo label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .campo input {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .formulario {
+      grid-template-columns: 1fr;
+    }
+  }
+  
